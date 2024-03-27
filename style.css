@@ -1,0 +1,1116 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.page{
+    width: 100%;
+    height: 100vmin;
+    background-color: white;
+}
+
+.box{
+    width: 55%;
+    height: 100%;    
+    /* background-image: url(https://img.freepik.com/free-photo/front-view-minimal-tropical-plant-composition_23-2148955738.jpg?w=996&t=st=1708534621~exp=1708535221~hmac=e31a09ec399435bdd35aa85379815a72c5ca53e184db0f1d0693bdd695884974); */
+    background-image: url(https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBsYW50fGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-position: -100px;
+    /* background-position: center; */
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+    /* font-family: "Roboto Mono", monospace; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.box h1{
+    position: absolute;
+    left: 14%;
+    top: 3%;
+    font-size: 105%;
+    height: 6%;
+    width: 7%;
+    padding-left: 1.7%;
+    padding-top: 0.8%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border:2px solid black;
+    /* border:2px solid black; */
+} 
+
+.hello{
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 13px;
+    transition: all ease 0.3s;
+    
+}
+
+.box h1:hover .hello{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.box h1:hover{
+    color: white;
+}
+
+
+.box h2{
+    position: absolute;
+    left: 22%;
+    top: 3%;
+    font-size: 100%;
+    color: rgba(0, 0, 0, 0.724);
+    height: 6%;
+    width: 7%;
+    padding-left: 1.6%;
+    padding-top: 0.8%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border:2px solid black;
+} 
+
+.hello2{
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+}
+
+
+.box h2:hover .hello2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.box h2:hover{
+    color: white;
+}
+
+
+
+.box h3{
+    position: absolute;
+    left: 30.5%;
+    top: 3%;
+    font-size: 100%;
+
+    height: 6%;
+    width: 8%;
+    padding-left: 1.2%;
+    padding-top: 0.8%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border:2px solid black;
+}
+
+.hello3{
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+}
+
+
+.box h3:hover .hello3{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.box h3:hover{
+    color: white;
+}
+
+.box h4{
+    position: absolute;
+    left: 40%;
+    top: 3%;
+    font-size: 100%;
+
+    height: 6%;
+    width: 8%;
+    padding-left: 1.2%;
+    padding-top: 0.8%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border:2px solid black;
+    
+} 
+
+.hello4{
+    width: 15%;
+    height: 50%;
+   
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+}
+
+
+.box h4:hover .hello4{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.box h4:hover{
+    color: white;
+}
+
+
+.box1{
+    width: 65%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.137);
+    position: absolute;
+    right: 0%;
+    top: 0;
+    background-image: url(https://imgs.search.brave.com/mhSvBrQcHgyh7NyEB8-zTBZDQViYKurvicvUJSZ0vuo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2NzM4OTg2/NTQ3NzEtMWI1MjNj/MmQzMDE2P3E9ODAm/dz0xMDAwJmF1dG89/Zm9ybWF0JmZpdD1j/cm9wJml4bGliPXJi/LTQuMC4zJml4aWQ9/TTN3eE1qQTNmREI4/TUh4elpXRnlZMmg4/T1h4OGNHeGhiblJ6/ZkdWdWZEQjhmREI4/Zkh3dw.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0px; */
+    clip-path: polygon(23% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgb(134, 17, 17);    
+}
+
+.circle h5{
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    font-weight: 800;
+    font-size: 128%;
+    
+    
+}
+
+
+
+.circle p{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.circle button{
+    width: 10%;
+    height: 6%;
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    border: 2px solid black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+
+.btn{
+    width: 15%;
+    height: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+    z-index: -1;
+}
+
+
+.circle button:hover .btn{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    top: 0%;
+    left: 0%;
+    border-radius: 0;
+}
+
+.circle button:hover{
+    color: white;
+}
+
+.circle1 h1{
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle1 p{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    left: 12%;
+    top: 64%;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.circle1 button{
+    width: 14%;
+    height: 6%;
+    position: absolute;
+    top: 77%;
+    left: 12%;
+    border: 2px solid black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+.btn2{
+    width: 15%;
+    height: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+    z-index: -1;
+}
+
+
+.circle1 button:hover .btn2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    top: 0%;
+    left: 0%;
+    border-radius: 0%;
+}
+
+.circle1 button:hover{
+    color: white;
+}
+
+.page1{
+    width:  100%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.674);
+    position: relative;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.page1 h1{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.photo1{
+    width: 20%;
+    height: 40%;
+    background-color: black;
+    background-image: url(https://img.freepik.com/free-photo/monstera-deliciosa-plant-pot_53876-133119.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3%;
+    /* margin-top: 5%; */
+    position: relative;   
+    transition: all ease 0.5s;
+}
+
+.photo1 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.photo1 p:hover{
+    position: absolute;
+    left: 10%;
+    /* color: rgb(29, 174, 218); */
+    color:rgb(244, 208, 124);;
+}
+
+.photo1:hover{
+    background-position:250px;
+    background-color: black;
+}
+
+
+.page1 h1:nth-child(2){
+    position: absolute;
+    top: 73%;
+    font-size: 167%; 
+}
+
+
+.page1 h2{
+    position: absolute; 
+    top: 80%;
+    left: 3%;
+}
+
+
+.photo2{
+    width: 20%;
+    height: 40%;
+    background-image: url(https://imgs.search.brave.com/A8J_QIRih6YSfpCYM_hhNnMrmumWIewBePAgCvnvAI0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnNo/Z2Nkbi5jb20vOTQx/MzkxNDEtYmI0NC00/ZjlhLWJkOTEtNzYw/NzZlZTU1MWYzLy0v/Zm9ybWF0L2F1dG8v/LS9wcmV2aWV3LzMw/MDB4MzAwMC8tL3F1/YWxpdHkvbGlnaHRl/ci8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 5%; */
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.photo2:hover{
+    background-position:250px;
+    background-color: black;
+}
+
+
+.page1 h3{
+    position: absolute;
+    top: 73%;
+    left: 27%;
+    font-size: 167%; 
+}
+
+.page1 h4{
+    position: absolute; 
+    top: 80%;
+    left: 27%; 
+    font-size: 167%; 
+}
+
+
+.photo3{
+    width: 20%;
+    height: 40%;
+    background-image: url(https://img.freepik.com/free-photo/monstera-deliciosa-plant-pot_53876-133117.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.photo2 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.photo2 p:hover{
+    position: absolute;
+    left: 10%;
+    /* color: rgb(29, 174, 218); */
+    color:rgb(244, 208, 124);;
+}
+
+.photo3:hover{
+    background-position:250px;
+    background-color: black;
+}
+.photo3 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.photo3 p:hover{
+    position: absolute;
+    left: 10%;
+    color:rgb(244, 208, 124);
+}
+
+
+.page1 h5{
+    position: absolute;
+    top: 73%;
+    left: 51.3%;
+    font-size: 167%; 
+}
+
+.page1 h6{
+    position: absolute; 
+    top: 80%;
+    left: 51.3%;
+    font-size: 167%; 
+}
+.photo4{
+    width: 20%;
+    height: 40%;
+    background-image: url(https://img.freepik.com/free-photo/pepper-face-plant-small-pot_53876-94408.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all ease 0.5s;
+    
+}
+
+.photo4 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.photo4 p:hover{
+    position: absolute;
+    left: 10%;
+    /* color: rgb(29, 174, 218); */
+    color:rgb(244, 208, 124);
+    
+}
+
+
+.photo4:hover{
+    background-position:250px;
+    background-color: #000;
+}
+
+.text1 h1{
+    position: absolute;
+    top: 73%;
+    left: 75.6%;
+    font-size: 167%; 
+}
+
+.text1 h2{
+    position: absolute; 
+    top: 80%;
+    left: 75.6%;
+    font-size: 167%; 
+}
+
+
+
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box2{
+    width: 85%;
+    height: 50%;
+    background-color: rgb(229, 229, 229);
+    position: absolute;
+    left: 8%;
+    top: 0%;
+
+}
+
+.box2 img{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 52%;
+    
+}
+
+.box2 h1{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: rgb(7, 133, 133);
+}
+
+.box2 h2{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
+.box2 h3{
+    position: absolute;
+    top: 57%;
+    left: 34%;
+}
+
+
+.box3{
+    width: 35%;
+    height: 32%;
+    background-color: rgb(229, 229, 229);
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    
+}
+
+.box3 img{
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.box3 h1{
+    font-size: 130%;
+    padding-top: 20%;
+    padding-left: 9%;
+}
+
+
+.box3 h2{
+    padding-left: 18%;
+    padding-top: 2%;
+    font-size: 110%;
+}
+
+.box3 h3{
+    font-size: 250%;
+    padding-top: 4%;
+    padding-left: 24%;
+    color: rgb(10, 146, 146);
+}
+
+.box4{
+    width: 35%;
+    height: 32%;
+    background-color: rgb(227, 227, 234);
+    position: absolute;
+    top: 65%;
+    left: 58%;
+}
+
+.box4 img{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.box4 h1{
+    font-size: 160%;
+    padding-top: 2%;
+    padding-left: 40%;
+}
+
+
+.box4 h2{
+    padding-left: 55%;
+    padding-top: 0%;
+    font-size: 140%;
+}
+
+.box4 h3{
+    font-size: 220%;
+    padding-top: 0%;
+    padding-left: 55%;
+    color: rgb(10, 146, 146);
+    font-weight: 900;
+}
+.box4 h4{
+    font-size: 220%;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    position: absolute;
+    color: rgb(10, 146, 146);
+    font-weight: 900;
+}
+
+
+
+.page3{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page3 h1{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.page3{
+    width:  100%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.674);
+    position: relative;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.page3 h1{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.poto1{
+    width: 20%;
+    height: 40%;
+    background-color: black;
+    background-image: url(https://imgs.search.brave.com/hn8ZfS7Km8F5Gae9xqA2YSMQUp6cYFG8pchwRlfu83Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90aGVm/ZXJuc2VlZC5jb20v/Y2RuL3Nob3AvcHJv/ZHVjdHMvRFNDXzAx/NTdfYTRhMzFhYWMt/N2U4Yy00MTlhLWI5/YjEtMmYwNzE1YzY1/NmQ5XzEyMDB4Lmpw/Zz92PTE1ODY4MDI0/MjU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3%;
+    /* margin-top: 5%; */
+    position: relative;   
+    transition: all ease 0.5s;
+}
+
+.poto1 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.poto1 p:hover{
+    position: absolute;
+    left: 10%;
+    /* color: rgb(29, 174, 218); */
+    color:rgb(244, 208, 124);
+}
+
+.poto1:hover{
+    background-position:250px;
+    background-color: black;
+}
+
+
+.page3 h1:nth-child(2){
+    position: absolute;
+    top: 73%;
+    font-size: 167%; 
+}
+
+
+.page3 h2{
+    position: absolute; 
+    top: 80%;
+    left: 3%;
+}
+
+
+.poto2{
+    width: 20%;
+    height: 40%;
+    background-image: url(https://thefernseed.com/cdn/shop/products/Fernseed-0876_1200x.jpg?v=1586802425);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 5%; */
+    position: relative;
+    transition: all ease 0.3s;
+}
+
+.poto2:hover{
+    background-position:250px;
+    background-color: black;
+}
+
+
+.page3 h3{
+    position: absolute;
+    top: 73%;
+    left: 27%;
+    font-size: 167%; 
+}
+
+.page3 h4{
+    position: absolute; 
+    top: 80%;
+    left: 27%; 
+    font-size: 167%; 
+}
+
+
+.poto3{
+    width: 20%;
+    height: 40%;
+    background-image: url(https://thefernseed.com/cdn/shop/products/BC11D0F9-D065-4035-9623-3EDA26F212DB_4_5005_c_1200x.jpg?v=1674927535);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.poto2{
+    transition: all ease 0.5s;
+}
+
+.poto2 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.5s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.poto2 p:hover{
+    position: absolute;
+    left: 10%;
+    color:rgb(244, 208, 124);
+}
+
+.poto3:hover{
+    background-position:250px;
+    background-color: black;
+}
+.poto3 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.poto3 p:hover{
+    position: absolute;
+    left: 10%;
+    color:rgb(244, 208, 124);
+}
+
+
+.page3 h5{
+    position: absolute;
+    top: 73%;
+    left: 51.3%;
+    font-size: 167%; 
+}
+
+.page3 h6{
+    position: absolute; 
+    top: 80%;
+    left: 51.3%;
+    font-size: 167%; 
+}
+.poto4{
+    width: 20%;
+    height: 40%;
+    background-image: url(https://img.freepik.com/free-photo/pepper-face-plant-small-pot_53876-94408.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all ease 0.5s;
+    
+}
+
+.poto4 p{
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;  
+    color: transparent;  
+    transition: all ease 0.3s;
+    position: absolute;
+    line-height: 30px;
+    left: 0%;
+  
+}
+
+.poto4 p:hover{
+    position: absolute;
+    left: 10%;
+    color:rgb(244, 208, 124);
+    
+}
+
+
+.poto4:hover{
+    background-position:250px;
+    background-color: rgb(0, 0, 0);
+}
+
+.text h1{
+    position: absolute;
+    top: 73%;
+    left: 75.6%;
+    font-size: 167%; 
+}
+
+.text h2{
+    position: absolute; 
+    top: 80%;
+    left: 75.6%;
+    font-size: 167%; 
+}
+.page4{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.box5{
+    width: 85%;
+    height: 75%;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    background-color: rgb(217, 217, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.box5 h1{
+    font-size: 250%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.box5 h2{
+    font-size: 100%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.box5 button{
+    width: 25%;
+    height: 12%;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    border-radius: 40px;
+    font-size: 120%;
+    font-weight: 700;
+    padding-right: 15%;
+    border: none;
+    z-index: 1;
+}
+
+
+
+.box5 i{
+    display: inline-block;
+    width: 12%;
+    height: 80%;
+    background-color: rgb(14, 172, 172);
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    padding-top: 3%; 
+    border-radius: 50%;
+    transition: .3s;
+    font-size: 100%;
+  
+}
+
+
+.box5 button:hover i{
+    border-radius: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding-left: 70%;
+    padding-top: 4.5%;
+    
+}
+
+
+.box5 img{
+    width: 35%;
+    position: absolute;
+    left: 65%;
+    top: 0%;
+}
+
+
+.page5{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.page5 img{
+    width: 40%;
+    /* height: 30%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: 70deg;
+    position: absolute;
+    left:-1%;
+    top: -5%;
+  
+}
+
+.page5 h1{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 300%;
+}
+
+.box6 img{
+    position: absolute;
+    left: 63%;
+    top: 50%;
+    rotate: 250deg;
+}
+
+
+
+.pic{
+    width: 10%;
+    height: 19%;
+    background-image: url(WhatsApp\ Image\ 2024-02-29\ at\ 01.04.34_3d9f1b70.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 29%;
+    left: 44%;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+}
+
+.pic:hover{
+    transform: scale(120%);
+    border-radius: 10%;
+
+}
+
+.page5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 200%;
+    font-weight: 800;
+    transition: all ease 0.5s;
+}
+.page5 h2:hover{
+    transform: scale(120%);
+
+}
+
+nav{
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    font-size: 150%;
+    letter-spacing: 10px;
+    font-weight: 600;
+    
+}
+
+.page5 p{
+    position: absolute;
+    left: 38%;
+    top: 65%;
+    font-size: 120%;
+    text-align: center;
+}
