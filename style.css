@@ -385,7 +385,7 @@ width: 100%;
     position: absolute;
     left: 10%;
     /* color: rgb(29, 174, 218); */
-    color:rgb(244, 208, 124);;
+    color:#1F6FEB;;
 }
 
 .photo1:hover{
@@ -468,7 +468,7 @@ width: 100%;
     position: absolute;
     left: 10%;
     /* color: rgb(29, 174, 218); */
-    color:rgb(244, 208, 124);;
+    color:#1F6FEB;;
 }
 
 .photo3:hover{
@@ -490,7 +490,7 @@ width: 100%;
 .photo3 p:hover{
     position: absolute;
     left: 10%;
-    color:rgb(244, 208, 124);
+    color:#1F6FEB;
 }
 
 
@@ -535,7 +535,7 @@ width: 100%;
     position: absolute;
     left: 10%;
     /* color: rgb(29, 174, 218); */
-    color:rgb(244, 208, 124);
+    color:#1F6FEB;
     
 }
 
@@ -764,7 +764,7 @@ width: 100%;
     position: absolute;
     left: 10%;
     /* color: rgb(29, 174, 218); */
-    color:rgb(244, 208, 124);
+    color:#1F6FEB;
 }
 
 .poto1:hover{
@@ -850,8 +850,10 @@ width: 100%;
 .poto2 p:hover{
     position: absolute;
     left: 10%;
-    color:rgb(244, 208, 124);
+    color:#1F6FEB;
+    /* color:#1F6FEB; */
 }
+
 
 .poto3:hover{
     background-position:250px;
@@ -872,7 +874,7 @@ width: 100%;
 .poto3 p:hover{
     position: absolute;
     left: 10%;
-    color:rgb(244, 208, 124);
+    color:#1F6FEB;
 }
 
 
@@ -916,7 +918,7 @@ width: 100%;
 .poto4 p:hover{
     position: absolute;
     left: 10%;
-    color:rgb(244, 208, 124);
+    color:#0166ff;
     
 }
 
@@ -1113,4 +1115,23 @@ nav{
     top: 65%;
     font-size: 120%;
     text-align: center;
+}
+
+#span6{
+    position: absolute;
+    top: 800%;
+    left: -250%;
+    white-space: nowrap;
+}
+
+#span6 h1{
+    position: absolute;
+    top: 0%;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    left: 130%;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
